@@ -1,6 +1,6 @@
 import { GoogleGenerativeAI } from "@google/generative-ai";
 
-const apiKey = "AIzaSyCQhsFVnEVAdFc1UcHr-9TpXw2kE6tVASY"; // Replace with your key
+const apiKey = "AIzaSyCQhsFVnEVAdFc1UcHr-9TpXw2kE6tVASY"; 
 const genAI = new GoogleGenerativeAI(apiKey);
 
 export const getAIResponse = async (message) => {

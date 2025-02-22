@@ -43,9 +43,9 @@ const Navbar = () => {
                 signOut(auth);
                 setUser(null);
                 localStorage.removeItem("user");
-                window.location.reload(); // 🔄 Refresh UI on logout
+                window.location.reload(); //  Refresh UI on logout
               }} 
-              className="bg-red-500 text-white px-4 py-2 rounded">
+              className="bg-red-500 text-white px-4 py-2 rounded cursor-pointer">
               Logout
             </button>
           </div>
