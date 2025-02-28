@@ -31,8 +31,10 @@ const Navbar = () => {
   }, []);
 
   return (
-    <nav className="bg-gradient-to-tr from-white to-purple-400  shadow-2xl p-4  flex justify-between items-center">
-      <Link to="/" className="text-2xl font-bold text-blue-600">ChatApp</Link>
+    <nav className="bg-gradient-to-tr from-white to-purple-400  shadow-2xl px-8 py-2  flex justify-between items-center">
+      <Link to="/" className="text-2xl font-bold text-blue-600">
+      <img src="./logo.jpg" alt="" className="h-16 rounded-xl" />
+      </Link>
 
       <div>
         {user ? (
