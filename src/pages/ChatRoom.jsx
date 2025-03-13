@@ -154,7 +154,7 @@ const ChatRoom = () => {
   };
 
   return (
-    <div className="h-[650px] mx-auto p-4 bg-gradient-to-tr from-yellow-100 to-black">
+    <div className="h-[650px] mx-auto p-4 bg-gray-100">
       <div className="flex justify-between items-center mb-2">
         <h2 className="text-2xl font-semibold">Chat Room</h2>
 
@@ -204,7 +204,7 @@ const ChatRoom = () => {
 
       {/* Login Popup Modal */}
       {showLoginPopup && (
-        <div className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-50 p-4">
+        <div className="fixed inset-0 flex items-center justify-center backdrop-blur-xl p-4">
         <div className="bg-white p-6 md:p-8 w-full max-w-sm sm:max-w-md md:max-w-lg lg:max-w-xl rounded-lg shadow-lg text-center">
           <h3 className="text-lg md:text-xl font-semibold">Login Required</h3>
           <p className="text-gray-600 text-sm md:text-base">
