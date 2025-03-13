@@ -210,7 +210,7 @@ const ChatRoom = () => {
           <p className="text-gray-600 text-sm md:text-base">
             You have reached the guest limit of 5 questions. Please log in to continue.
           </p>
-          <Link to="/auth">
+          <Link to="/login">
           <button
             onClick={() => setShowLoginPopup(false)}
             className="mt-4 px-4 py-2 bg-blue-500 text-white cursor-pointer rounded-md text-sm md:text-base"
