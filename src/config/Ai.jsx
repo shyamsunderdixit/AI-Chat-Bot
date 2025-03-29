@@ -1,8 +1,10 @@
-
 import { GoogleGenerativeAI } from "@google/generative-ai";
 
-const apiKey = "AIzaSyDAYRxiR8cbBjOsd2xd0AZj7j3jGwBEr3s";
+const apiKey = import.meta.env.VITE_GEMINI_API_KEY;
+
 const genAI = new GoogleGenerativeAI(apiKey);
+
+console.log("Gemini API Key:", import.meta.env.VITE_GEMINI_API_KEY);
 
 export const getAIResponse = async (message) => {
   try {

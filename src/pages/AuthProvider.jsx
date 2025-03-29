@@ -50,7 +50,7 @@ const AuthProvider = ({ children }) => {
 
   // Logout function
   const logout = () => {
-    console.log("Logging out...");
+    // console.log("Logging out...");
     localStorage.removeItem("user");  // Remove stored user data
     sessionStorage.clear();  // Extra safety to prevent session persistence
     setUser(null);

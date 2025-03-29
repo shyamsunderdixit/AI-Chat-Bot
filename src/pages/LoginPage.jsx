@@ -33,7 +33,7 @@ const LoginPage = () => {
       const loggedInUser = { 
         name: auth.currentUser.displayName || "User",
       email: auth.currentUser.email,
-       };
+      };
 
       localStorage.setItem("user", JSON.stringify(loggedInUser));
 

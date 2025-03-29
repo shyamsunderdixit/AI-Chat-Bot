@@ -3,13 +3,13 @@ import { getAuth } from "firebase/auth";
 import { getFirestore } from "firebase/firestore";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyCJO_GoS2VkpCcCRWl9fN7uPf4ykwjsPI8",
-  authDomain: "ai-chat-app-54fc0.firebaseapp.com",
-  projectId: "ai-chat-app-54fc0",
-  storageBucket: "ai-chat-app-54fc0.firebasestorage.app",
-  messagingSenderId: "425560376864",
-  appId: "1:425560376864:web:015f7a71957f1d9042de45",
-  measurementId: "G-61NWJRQEXD"
+  apiKey: import.meta.env.VITE_FIREBASE_API_KEY,
+  authDomain: "ai-chat-app-fe8cc.firebaseapp.com",
+  projectId: "ai-chat-app-fe8cc",
+  storageBucket: "ai-chat-app-fe8cc.firebasestorage.app",
+  messagingSenderId: "531040868671",
+  appId: "1:531040868671:web:d2c7f879d09ff1104f9b8a",
+  measurementId: "G-M7JTEG3YWP"
 };
 
 // Initialize Firebase
